@@ -1,0 +1,122 @@
+/*couleur & format */
+body{
+	background-color: #ECF4F3;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+h1{ 
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+h2{
+	color: #68B0AB;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	font-size: 100px
+	line-height :0.2;
+}
+h4{
+	text-align: center;
+}
+
+p{
+	font-size: 16px;
+	text-align: justify;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	color : #1F6F8B;
+	font-size: 13px;
+}
+a:hover {
+	color : black;
+}
+
+.img-circle {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.card-white {
+	background-color: white;
+	padding : 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: justify;
+	margin: 20px 0px;
+}
+
+.container {
+	width:700px;
+	margin: 40px auto;
+}
+
+.btn-blue {
+	background-color: #1F6F8B;
+	color : white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+.list-mesplus {
+	list-style: none;
+	padding-left: 0px;
+	text-align: justify;
+}
+
+.list-mesplus i {
+	font-size: 20px;
+	padding-right: 20px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
